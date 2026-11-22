@@ -1,0 +1,12 @@
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+
+# Vision identity
+vision_identity.txt
+
+# Python
+__pycache__/
+*.pyc
+.venv/
