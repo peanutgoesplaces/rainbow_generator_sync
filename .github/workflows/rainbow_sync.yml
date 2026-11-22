@@ -12,6 +12,10 @@ jobs:
   rainbow-sync:
     runs-on: self-hosted
 
+    defaults:
+      run:
+        shell: cmd
+
     env:
       DB_HOST: ${{ secrets.DB_HOST }}
       DB_PORT: ${{ secrets.DB_PORT }}
